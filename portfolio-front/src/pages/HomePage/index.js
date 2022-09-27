@@ -1042,7 +1042,7 @@ const HomePage = () => {
               orientation="vertical"
             >
               {
-                apiData5.length ?  apiData5?.map((apiDataResponseEle, index) => {
+                apiData5?.length ?  apiData5?.map((apiDataResponseEle, index) => {
                   return (
                     <Column className="2xl:my-[10px] 3xl:my-[12px] lg:my-[7px] xl:my-[8px] w-[100%]">
                       <React.Fragment key={`apiDataResponseEle${index}`}>

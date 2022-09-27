@@ -18,28 +18,28 @@ This project's front-end is generated with ❤️ from Dhiwise.
 
 This project has 2 sub-folders - frontend and backend.
 
-- Frontend
+1. Frontend
 
-All the design has been generated with [tailwindcss](https://tailwindcss.com/).
-Find all the theme related configuration inside tailwind.config.js
+    All the design has been generated with [tailwindcss](https://tailwindcss.com/).
+    Find all the theme related configuration inside tailwind.config.js
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+    This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-This project is integrated with a [Tailwind CSS](https://tailwindcss.com/) setup, a new utility-first css framework, in an CRA environment. You can read more over on [Getting Started with Tailwind](https://tailwindcss.com/docs/installation).
+    This project is integrated with a [Tailwind CSS](https://tailwindcss.com/) setup, a new utility-first css framework, in an CRA environment. You can read more over on [Getting Started with Tailwind](https://tailwindcss.com/docs/installation).
 
-Figma: https://www.figma.com/file/7rSTh3w3EF5XVvEbi8BYeA/Portfolio?node-id=4%3A1630
+    Figma: https://www.figma.com/file/7rSTh3w3EF5XVvEbi8BYeA/Portfolio?node-id=4%3A1630
 
-- Backend
+2. Backend
 
-For the backend, [Prisma](https://www.prisma.io/) and [NestJs](https://nestjs.com/) is used.
+    For the backend, [Prisma](https://www.prisma.io/) and [NestJs](https://nestjs.com/) is used.
 
-Prisma is next-generation Node.js and TypeScript ORM used to Perform database operations. For this project, SQLite database is used to store and retrieve data using Prisma.
+    Prisma is next-generation Node.js and TypeScript ORM used to Perform database operations. For this project, SQLite database is used to store and retrieve data using Prisma.
 
-NestJs A progressive Node.js framework for building efficient, reliable and scalable server-side applications. For this project a backend server, accessible through REST APIs to store and retrieve data from the database.
+    NestJs A progressive Node.js framework for building efficient, reliable and scalable server-side applications. For this project a backend server, accessible through REST APIs to store and retrieve data from the database.
 
 ## Features
 
-- In this portfolio, following sections are covered.
+In this portfolio, following sections are covered.
 1. Basic Information with resume download
 2. Skills
 3. Services
@@ -58,11 +58,12 @@ NestJs A progressive Node.js framework for building efficient, reliable and scal
 
 ## Setup
 Front-end runs on port:3000 and backend runs on port:8081.
-1. from the root ``` cd portfolio-backend && npm i ``` 
-2. from the root ``` cd portfolio-frontend && npm i```
-3. from the root ```npm start```
+1. from the root ``` cd portfolio-frontend && npm i```
+2. from the root ``` cd portfolio-backend && npm i ``` 
+3. create .env with variable ```DATABASE_URL="file:folio.db"``` file in ```portfolio-backend``` folder and run ```npx prisma generate``` when you are running the project for the first time. 
+4. from the root ```npm start```
 
-> Note: This project is setup in a way, that you can start the server and client from the root using ```npm start```
+> Note: This project is setup in such a way that you can start the server and client from the root folder using ```npm start```
 
 ## Folder Structure
 
@@ -73,8 +74,7 @@ Front-end runs on port:3000 and backend runs on port:8081.
 ├── package.json
 ├── README.md
 ```
-
-- detailed folder structure is inside the readme of respective folder.
+Detailed folder structure is inside the readme of respective folder.
 
 ## License
 
